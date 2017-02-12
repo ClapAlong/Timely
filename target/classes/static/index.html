@@ -1,0 +1,203 @@
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+  <title>Timely</title>
+
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  <link rel="stylesheet" href="./css/app.css">
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+  <!-- Your application bootstrap  -->
+  <script src="./js/app.js"></script>
+
+  <!-- Full Calendar -->
+  <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+  <script src='../../../node_modules/jquery.min.js'></script>
+  <script src='../../../node_modules/moment.min.js'></script>
+  <script src='../../../node_modulesfullcalendar/fullcalendar.js'></script>
+  <script src='../../../node_modulesfullcalendar/gcal.js'></script>
+  <script type='text/javascript'>
+    $(document).ready(function() {
+        $('#calendar').fullCalendar({
+            googleCalendarApiKey: '529435855046-ie6lroph83a9cnaq1ld1pvceqk69dp3v.apps.googleusercontent.com',
+            events: {
+                googleCalendarId: 'k10di9koc9pc2cdt6rcbb713vc@group.calendar.google.com'
+            }
+        });
+    });
+  </script>
+
+</head>
+
+<body ng-app="Timely" ng-cloak layout="column" ng-controller="contentCtrl">
+  <!--
+    Your HTML content here
+  -->
+
+  <div class="container" layout="row" flex>
+    <md-sidenav id="sidebar" md-is-locked-open="true" class="md-whiteframe-4dp">
+
+      <md-list>
+        <md-list-item>
+          <md-button ng-click="show('appointment')" class="md-raised">
+            <md-icon md-svg-src="./assets/svg1.svg" class="button-icon"></md-icon>
+            Appointment
+          </md-button>
+        </md-list-item>
+
+        <md-list-item>
+          <md-button ng-click="show('officeHour')" class="md-raised">
+            <md-icon md-svg-src="./assets/svg2.svg" class="button-icon"></md-icon>
+            Office Hour
+          </md-button>
+        </md-list-item>
+
+        <md-list-item>
+          <md-button ng-click="show('calendar')" class="md-raised">
+            <md-icon md-svg-src="./assets/svg3.svg" class="button-icon"></md-icon>
+            Calendar
+          </md-button>
+        </md-list-item>
+      </md-list>
+
+    </md-sidenav>
+
+    <!-- Content -->
+    <div ng-switch="toShow" layout="column" flex>
+      <!-- Appointment -->
+      <div ng-switch-when="appointment" layout="column" flex>
+
+        <md-toolbar class="md-whiteframe-4dp">
+          <h1>Appointment</h1>
+        </md-toolbar>
+
+        <md-content id="content">
+          <md-card>
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">International Center</span>
+                <span class="md-subhead">Content</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-lg card-media"></div>
+              </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button class="md-raised">Make Appointment</md-button>
+            </md-card-actions>
+          </md-card>
+
+          <md-card>
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Health Center</span>
+                <span class="md-subhead">Content</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-lg card-media"></div>
+              </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button class="md-raised">Make Appointment</md-button>
+            </md-card-actions>
+          </md-card>
+
+          <md-card>
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Academic Advisor</span>
+                <span class="md-subhead">Content</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-lg card-media"></div>
+              </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button class="md-raised">Make Appointment</md-button>
+            </md-card-actions>
+          </md-card>
+        </md-content>
+
+      </div> <!-- Appointment -->
+
+      <!-- office hour -->
+      <div ng-switch-when="officeHour" layout="column" flex>
+
+        <md-toolbar class="md-whiteframe-4dp">
+          <h1>Office Hour</h1>
+        </md-toolbar>
+
+        <md-content id="content">
+          <md-card>
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Dr.Gilbert Young</span>
+                <span class="md-subhead">Content</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-lg card-media"></div>
+              </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button class="md-raised">Make Appointment</md-button>
+              <md-button class="md-raised">Select Office hour</md-button>
+            </md-card-actions>
+          </md-card>
+
+          <md-card>
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Dr.Sun Yu</span>
+                <span class="md-subhead">Content</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-lg card-media"></div>
+              </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button class="md-raised">Make Appointment</md-button>
+              <md-button class="md-raised">Select Office Hour</md-button>
+            </md-card-actions>
+          </md-card>
+        </md-content>
+
+      </div> <!-- office hour -->
+
+      <!-- Calendar -->
+      <div ng-switch-when="calendar" layout="column" flex>
+
+        <md-toolbar class="md-whiteframe-4dp">
+          <h1>Calendar</h1>
+        </md-toolbar>
+
+        <md-content id="content">
+          <iframe src="https://calendar.google.com/calendar/embed?src=k10di9koc9pc2cdt6rcbb713vc%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </md-content>
+
+      </div> <!-- Calendar -->
+
+    </div> <!-- content -->
+
+  </div>
+
+
+</body>
+</html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->
