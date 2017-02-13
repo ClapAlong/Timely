@@ -1,5 +1,11 @@
 package clapAlong.timely;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
@@ -10,10 +16,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
-public class App {
-	
+public class App{
+	 
+		// TODO Auto-generated constructor stub
+	 
 
-    /**
+	/**
      * This is the running main method for the web application.
      * Please note that Spring requires that there is one and
      * ONLY one main method in your whole program. You can create
@@ -22,7 +30,15 @@ public class App {
      */
     public static void main(String[] args) throws Exception {
         // Run Spring Boot
-        SpringApplication.run(App.class, args);
+         
+    	
+      	
+		 
+    	
+    	SpringApplication.run(App.class, args);
+  
 
+    
+    	
     }
 }
