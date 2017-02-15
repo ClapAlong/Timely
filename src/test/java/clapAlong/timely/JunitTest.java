@@ -9,6 +9,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import org.junit.*;
 
+import clapAlong.timely.controller.Controller;
+
 
 public class JunitTest {
 	
@@ -19,6 +21,17 @@ public class JunitTest {
 		 
 		 
 	 }
+	 
+	 
+	 /**
+	  * Basic ping junit test for A6
+	  * 
+	  * @author yuanchengli
+	  */
+	 public void testSayHello() {
+		 Assert.assertEquals("Hello world!", Controller.helloWorld());
+	 }
+	 
 	 
  
 	/**
