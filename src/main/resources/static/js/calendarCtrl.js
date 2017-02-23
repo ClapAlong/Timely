@@ -11,6 +11,8 @@ function loadCalendar()
 
     $(document).ready(function() {
 
+        console.log(calendarId);
+
         $('#calendar').fullCalendar({
 
             header: {
@@ -24,7 +26,7 @@ function loadCalendar()
             googleCalendarApiKey: 'AIzaSyBXeOiSzm0iYeNJr6ZXoOtCb7K7579BegE',
 
             // public calendar created for the project
-            events: calendarId;
+            events: calendarId,
 
             eventClick: function(event) {
                 // opens events in a popup window
