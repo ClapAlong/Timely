@@ -26,6 +26,7 @@ html, body {
 
 md-toolbar h1 {
   margin: auto;
+  text-align: left;
 }
 
 /* Sidenav area */
@@ -108,6 +109,7 @@ md-button.menuBtn > md-icon {
 md-toolbar h1 {
   font-size: 1.250em;
   font-weight: 400;
+  text-align: left;
 }
 
 .avatar {
@@ -134,7 +136,7 @@ span.name {
   padding-left: 5px;
 }
 
-/* fullcalendar */
+/* Full Calendar */
 
 #loading {
   display: none;

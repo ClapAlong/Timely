@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     $("#calendar-tab").click (function(){
         loadCalendar();
@@ -7,6 +6,8 @@ $(document).ready(function() {
 
 function loadCalendar()
 {
+
+    //console.log(calendarId);
 
     $(document).ready(function() {
 
@@ -22,8 +23,8 @@ function loadCalendar()
 
             googleCalendarApiKey: 'AIzaSyBXeOiSzm0iYeNJr6ZXoOtCb7K7579BegE',
 
-            // US Holidays
-            events: 'en.usa#holiday@group.v.calendar.google.com',
+            // public calendar created for the project
+            events: calendarId;
 
             eventClick: function(event) {
                 // opens events in a popup window
