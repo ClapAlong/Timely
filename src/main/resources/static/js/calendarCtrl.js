@@ -23,9 +23,12 @@ function loadCalendar()
 
             displayEventTime: false,
 
-            googleCalendarApiKey: 'AIzaSyBXeOiSzm0iYeNJr6ZXoOtCb7K7579BegE',
+            eventSources: {
 
-            events: calendarId,
+                googleCalendarApiKey: 'AIzaSyBXeOiSzm0iYeNJr6ZXoOtCb7K7579BegE',
+
+                events: calendarId
+            },
 
             eventClick: function(event) {
                 // opens events in a popup window

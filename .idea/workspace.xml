@@ -2,15 +2,279 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b22216f8-6e53-4659-9ddd-8ce64c4c365b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/Google_signin_button.sketch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_dark_disabled_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_dark_focus_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_dark_normal_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_dark_pressed_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_light_disabled_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_light_focus_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_light_normal_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_light_pressed_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_signin_dark_disabled_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_signin_dark_focus_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_signin_dark_normal_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_signin_dark_pressed_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_signin_light_disabled_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_signin_light_focus_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_signin_light_normal_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/hdpi/btn_google_signin_light_pressed_hdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_dark_disabled_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_dark_focus_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_dark_normal_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_dark_pressed_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_light_disabled_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_light_focus_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_light_normal_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_light_pressed_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_signin_dark_disabled_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_signin_dark_focus_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_signin_dark_normal_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_signin_dark_pressed_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_signin_light_disabled_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_signin_light_focus_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_signin_light_normal_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/ldpi/btn_google_signin_light_pressed_ldpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_dark_disabled_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_dark_focus_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_dark_normal_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_dark_pressed_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_light_disabled_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_light_focus_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_light_normal_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_light_pressed_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_signin_dark_disabled_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_signin_dark_focus_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_signin_dark_normal_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_signin_dark_pressed_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_signin_light_disabled_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_signin_light_focus_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_signin_light_normal_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/mdpi/btn_google_signin_light_pressed_mdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_dark_disabled_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_dark_focus_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_dark_normal_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_dark_pressed_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_light_disabled_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_light_focus_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_light_normal_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_light_pressed_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_signin_dark_disabled_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_signin_dark_focus_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_signin_dark_normal_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_signin_dark_pressed_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_signin_light_disabled_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_signin_light_focus_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_signin_light_normal_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/tvdpi/btn_google_signin_light_pressed_tvdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_dark_disabled_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_dark_focus_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_dark_normal_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_dark_pressed_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_light_disabled_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_light_focus_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_light_normal_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_light_pressed_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_signin_dark_disabled_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_signin_dark_focus_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_signin_dark_normal_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_signin_dark_pressed_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_signin_light_disabled_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_signin_light_focus_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_signin_light_normal_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xhdpi/btn_google_signin_light_pressed_xhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_dark_disabled_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_dark_focus_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_dark_normal_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_dark_pressed_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_light_disabled_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_light_focus_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_light_normal_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_light_pressed_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_signin_dark_disabled_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_signin_dark_focus_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_signin_dark_normal_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_signin_dark_pressed_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_signin_light_disabled_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_signin_light_focus_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_signin_light_normal_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxhdpi/btn_google_signin_light_pressed_xxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_dark_disabled_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_dark_focus_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_dark_normal_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_dark_pressed_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_light_disabled_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_light_focus_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_light_normal_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_light_pressed_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_signin_dark_disabled_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_signin_dark_focus_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_signin_dark_normal_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_signin_dark_pressed_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_signin_light_disabled_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_signin_light_focus_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_signin_light_normal_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/android/xxxhdpi/btn_google_signin_light_pressed_xxxhdpi.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_dark_disabled_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_dark_focus_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_dark_normal_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_dark_pressed_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_light_disabled_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_light_focus_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_light_normal_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_light_pressed_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_signin_dark_disabled_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_signin_dark_focus_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_signin_dark_normal_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_signin_dark_pressed_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_signin_light_disabled_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_signin_light_focus_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_signin_light_normal_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/1x/btn_google_signin_light_pressed_ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_dark_disabled_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_dark_focus_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_dark_normal_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_dark_pressed_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_light_disabled_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_light_focus_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_light_normal_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_light_pressed_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_signin_dark_disabled_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_signin_dark_focus_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_signin_dark_normal_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_signin_dark_pressed_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_signin_light_disabled_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_signin_light_focus_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_signin_light_normal_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/2x/btn_google_signin_light_pressed_ios@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_dark_disabled_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_dark_focus_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_dark_normal_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_dark_pressed_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_light_disabled_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_light_focus_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_light_normal_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_light_pressed_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_signin_dark_disabled_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_signin_dark_focus_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_signin_dark_normal_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_signin_dark_pressed_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_signin_light_disabled_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_signin_light_focus_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_signin_light_normal_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/ios/3x/btn_google_signin_light_pressed_ios@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/1x/btn_google_signin_dark_disabled_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/1x/btn_google_signin_dark_focus_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/1x/btn_google_signin_dark_normal_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/1x/btn_google_signin_dark_pressed_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/1x/btn_google_signin_light_disabled_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/1x/btn_google_signin_light_focus_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/1x/btn_google_signin_light_normal_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/1x/btn_google_signin_light_pressed_web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/2x/btn_google_signin_dark_disabled_web@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/2x/btn_google_signin_dark_focus_web@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/2x/btn_google_signin_dark_normal_web@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/2x/btn_google_signin_dark_pressed_web@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/2x/btn_google_signin_light_disabled_web@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/2x/btn_google_signin_light_focus_web@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/2x/btn_google_signin_light_normal_web@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/2x/btn_google_signin_light_pressed_web@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_dark_disabled_ios.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_dark_disabled_ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_dark_focus_ios.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_dark_focus_ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_dark_normal_ios.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_dark_normal_ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_dark_pressed_ios.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_dark_pressed_ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_light_disabled_ios.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_light_disabled_ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_light_focus_ios.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_light_focus_ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_light_normal_ios.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_light_normal_ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_light_pressed_ios.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/google_signin_buttons/web/vector/btn_google_light_pressed_ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/fullcalendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/fullcalendar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/fullcalendar.print.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/gcal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/gcal.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ar-dz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ar-ly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ar-sa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ar-tn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/de-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/en-ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/en-nz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/es-do.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/fr-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/kk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ms-my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/nl-be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/nn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/sr-cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/dist/locale/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/fullcalendar/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/css/app.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/calendarCtrl.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/calendarCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/googleAuth.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/googleAuth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/app.css" afterPath="$PROJECT_DIR$/target/classes/static/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="$PROJECT_DIR$/target/classes/static/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +302,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="480">
+              <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#md-button#0;n#md-list-item#0;n#md-list#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#md-button#1;n#md-list-item#0;n#md-list#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,11 +325,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendarCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calendarCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/calendarCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -106,9 +370,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/calendar.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/calendarQuickStart.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/app.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/googleAuth.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/calendarCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
       </list>
     </option>
   </component>
@@ -460,7 +724,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28187000" />
+    <option name="totallyTimeSpent" value="28697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -577,22 +841,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/calendarCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="480">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#md-button#0;n#md-list-item#0;n#md-list#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-button#1;n#md-list-item#0;n#md-list#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/calendarCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
