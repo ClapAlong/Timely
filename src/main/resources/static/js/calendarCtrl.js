@@ -3,7 +3,7 @@ $(document).ready(function() {
         loadCalendar();
     });
 });
-
+var calendarId = 'liyuancheng0118@gmail.com';
 function loadCalendar()
 {
 
@@ -25,7 +25,6 @@ function loadCalendar()
 
             googleCalendarApiKey: 'AIzaSyBXeOiSzm0iYeNJr6ZXoOtCb7K7579BegE',
 
-            // public calendar created for the project
             events: calendarId,
 
             eventClick: function(event) {
