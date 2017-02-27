@@ -29,12 +29,8 @@ public class App{
      * you cannot put extra main method when building your project.
      */
     public static void main(String[] args) throws Exception {
-        // Run Spring Boot
-         
-    	
-      	
-		 
-    	
+        // Run Spring Boot  	
+      	    	
     	SpringApplication.run(App.class, args);
   
 

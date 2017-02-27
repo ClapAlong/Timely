@@ -8,8 +8,7 @@ var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/
 // included, separated by spaces.
 var SCOPES = "https://www.googleapis.com/auth/calendar";
 
-var authorizeButton = document.getElementById('authorize-button');
-var signoutButton = document.getElementById('signout-button');
+// Calendar id for full calendar to render a calendar ui
 var calendarId;
 
 /**
@@ -114,6 +113,10 @@ function listUpcomingEvents() {
     });
 }
 
+/**
+ * Retrieve a list of calendars from user, then find the primary calendar's calendar id,
+ * which is the email address of user.
+ */
 function listCalendars()
 {
     var request = gapi.client.calendar.calendarList.list();

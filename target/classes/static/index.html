@@ -44,182 +44,198 @@
 </head>
 
 <body ng-app="Timely" ng-cloak layout="column" ng-controller="contentCtrl">
-  <!--
-    Your HTML content here
-  -->
+<!--
+  HTML content here
+-->
 
-    <div class="container" layout="row" flex>
-        <!-- sidebar -->
-        <md-sidenav id="sidebar" md-is-locked-open="true" class="md-whiteframe-4dp">
+<div class="container" layout="row" flex>
+    <!-- sidebar -->
+    <md-sidenav id="sidebar" md-is-locked-open="true" class="md-whiteframe-4dp">
 
-            <md-list>
-                <md-list-item>
-                    <md-button id="authorize-button" class="md-raised md-primary" style = "text-align: center; display: none;">
-                        Authorize
-                    </md-button>
-                    <md-button id="signout-button" class="md-raised md-warn" style = "text-align: center; display: none;">
-                        Sign Out
-                    </md-button>
-                </md-list-item>
+        <md-list>
+            <md-list-item>
+                <md-button id="authorize-button" class="md-raised md-primary" style = "text-align: center; display: none;">
+                    Authorize
+                </md-button>
+                <md-button id="signout-button" class="md-raised md-warn" style = "text-align: center; display: none;">
+                    Sign Out
+                </md-button>
+            </md-list-item>
 
-                <md-list-item>
-                    <md-button ng-click="show('appointment')" class="md-raised">
-                        <md-icon md-svg-src="./assets/svg1.svg" class="button-icon"></md-icon>
-                        Appointment
-                    </md-button>
-                </md-list-item>
+            <md-list-item>
+                <md-button ng-click="show('appointment')" class="md-raised">
+                    <md-icon md-svg-src="./assets/svg1.svg" class="button-icon"></md-icon>
+                    Appointment
+                </md-button>
+            </md-list-item>
 
-                <md-list-item>
-                    <md-button ng-click="show('officeHour')" class="md-raised">
-                        <md-icon md-svg-src="./assets/svg2.svg" class="button-icon"></md-icon>
-                        Office Hour
-                    </md-button>
-                </md-list-item>
+            <md-list-item>
+                <md-button ng-click="show('officeHour')" class="md-raised">
+                    <md-icon md-svg-src="./assets/svg2.svg" class="button-icon"></md-icon>
+                    Office Hour
+                </md-button>
+            </md-list-item>
 
-                <md-list-item>
-                    <md-button id='calendar-tab' ng-click="show('calendar')" class="md-raised">
-                        <md-icon md-svg-src="./assets/svg3.svg" class="button-icon"></md-icon>
-                        Calendar
-                    </md-button>
-                </md-list-item>
-            </md-list>
+            <md-list-item>
+                <md-button id='calendar-tab' ng-click="show('calendar')" class="md-raised">
+                    <md-icon md-svg-src="./assets/svg3.svg" class="button-icon"></md-icon>
+                    Calendar
+                </md-button>
+            </md-list-item>
+        </md-list>
 
-        </md-sidenav> <!-- sidebar -->
+    </md-sidenav> <!-- sidebar -->
 
-        <!-- Content -->
-        <div ng-switch="toShow" layout="column" flex>
-          <!-- Appointment -->
-          <div ng-switch-when="appointment" layout="column" flex>
+    <!-- Content -->
+    <div ng-switch="toShow" flex>
+        <!-- Appointment -->
+        <div ng-switch-when="appointment" layout="column" flex>
 
             <md-toolbar class="md-whiteframe-4dp">
-              <h1>Timely > Appointment</h1>
+                <h1>Timely > Appointment</h1>
             </md-toolbar>
 
-              <div id='calendar'></div>
+            <md-content class="md-padding" layout-xs="column" layout="row">
+                <div flex-xs flex-gt-xs="50" layout="column">
+                    <md-card>
+                        <md-card-title>
+                            <md-card-title-text>
+                                <span class="md-headline">International Center</span>
+                                <span class="md-subhead">Content</span>
+                            </md-card-title-text>
+                            <md-card-title-media>
+                                <div class="md-media-lg card-media"></div>
+                            </md-card-title-media>
+                        </md-card-title>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised">Make Appointment</md-button>
+                        </md-card-actions>
+                    </md-card>
 
-            <md-content id="content">
-              <md-card>
-                <md-card-title>
-                  <md-card-title-text>
-                    <span class="md-headline">International Center</span>
-                    <span class="md-subhead">Content</span>
-                  </md-card-title-text>
-                  <md-card-title-media>
-                    <div class="md-media-lg card-media"></div>
-                  </md-card-title-media>
-                </md-card-title>
-                <md-card-actions layout="row" layout-align="end center">
-                  <md-button class="md-raised" ng-click="renderEvent()" >Make Appointment</md-button>
-                </md-card-actions>
-              </md-card>
+                    <md-card>
+                        <md-card-title>
+                            <md-card-title-text>
+                                <span class="md-headline">Health Center</span>
+                                <span class="md-subhead">Content</span>
+                            </md-card-title-text>
+                            <md-card-title-media>
+                                <div class="md-media-lg card-media"></div>
+                            </md-card-title-media>
+                        </md-card-title>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised">Make Appointment</md-button>
+                        </md-card-actions>
+                    </md-card>
+                </div>
 
-              <md-card>
-                <md-card-title>
-                  <md-card-title-text>
-                    <span class="md-headline">Health Center</span>
-                    <span class="md-subhead">Content</span>
-                  </md-card-title-text>
-                  <md-card-title-media>
-                    <div class="md-media-lg card-media"></div>
-                  </md-card-title-media>
-                </md-card-title>
-                <md-card-actions layout="row" layout-align="end center">
-                  <md-button class="md-raised">Make Appointment</md-button>
-                </md-card-actions>
-              </md-card>
+                <div flex-xs flex-gt-xs="50" layout="column">
+                    <md-card>
+                        <md-card-title>
+                            <md-card-title-text>
+                                <span class="md-headline">Academic Advisor</span>
+                                <span class="md-subhead">Content</span>
+                            </md-card-title-text>
+                            <md-card-title-media>
+                                <div class="md-media-lg card-media"></div>
+                            </md-card-title-media>
+                        </md-card-title>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised">Make Appointment</md-button>
+                        </md-card-actions>
+                    </md-card>
 
-              <md-card>
-                <md-card-title>
-                  <md-card-title-text>
-                    <span class="md-headline">Academic Advisor</span>
-                    <span class="md-subhead">Content</span>
-                  </md-card-title-text>
-                  <md-card-title-media>
-                    <div class="md-media-lg card-media"></div>
-                  </md-card-title-media>
-                </md-card-title>
-                <md-card-actions layout="row" layout-align="end center">
-                  <md-button class="md-raised">Make Appointment</md-button>
-                </md-card-actions>
-              </md-card>
+                    <md-card>
+                        <md-card-title>
+                            <md-card-title-text>
+                                <span class="md-headline">Academic Advisor</span>
+                                <span class="md-subhead">Content</span>
+                            </md-card-title-text>
+                            <md-card-title-media>
+                                <div class="md-media-lg card-media"></div>
+                            </md-card-title-media>
+                        </md-card-title>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised">Make Appointment</md-button>
+                        </md-card-actions>
+                    </md-card>
+
+                </div>
             </md-content>
 
 
 
-          </div> <!-- Appointment -->
+        </div> <!-- Appointment -->
 
-          <!-- office hour -->
-          <div ng-switch-when="officeHour" layout="column" flex>
+        <!-- office hour -->
+        <div ng-switch-when="officeHour" layout="column" flex>
 
             <md-toolbar class="md-whiteframe-4dp">
-              <h1>Timely > Office Hour</h1>
+                <h1>Timely > Office Hour</h1>
+            </md-toolbar>
+
+            <md-content class="md-padding" layout-xs="column" layout="row">
+                <div flex-xs flex-gt-xs="50" layout="column">
+                    <md-card>
+                        <md-card-title>
+                            <md-card-title-text>
+                                <span class="md-headline">Dr.Gilbert Young</span>
+                                <span class="md-subhead">Content</span>
+                            </md-card-title-text>
+                            <md-card-title-media>
+                                <div class="md-media-lg card-media"></div>
+                            </md-card-title-media>
+                        </md-card-title>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised">Make Appointment</md-button>
+                            <md-button class="md-raised">Select Office hour</md-button>
+                        </md-card-actions>
+                    </md-card>
+
+                    <md-card>
+                        <md-card-title>
+                            <md-card-title-text>
+                                <span class="md-headline">Dr.Sun Yu</span>
+                                <span class="md-subhead">Content</span>
+                            </md-card-title-text>
+                            <md-card-title-media>
+                                <div class="md-media-lg card-media"></div>
+                            </md-card-title-media>
+                        </md-card-title>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised">Make Appointment</md-button>
+                            <md-button class="md-raised">Select Office Hour</md-button>
+                        </md-card-actions>
+                    </md-card>
+                </div>
+            </md-content>
+
+        </div> <!-- office hour -->
+
+        <!-- Calendar -->
+        <div ng-switch-when="calendar" layout="column" flex>
+
+            <md-toolbar class="md-whiteframe-4dp">
+                <h1>Timely > Calendar</h1>
             </md-toolbar>
 
             <md-content id="content">
-              <md-card>
-                <md-card-title>
-                  <md-card-title-text>
-                    <span class="md-headline">Dr.Gilbert Young</span>
-                    <span class="md-subhead">Content</span>
-                  </md-card-title-text>
-                  <md-card-title-media>
-                    <div class="md-media-lg card-media"></div>
-                  </md-card-title-media>
-                </md-card-title>
-                <md-card-actions layout="row" layout-align="end center">
-                  <md-button class="md-raised">Make Appointment</md-button>
-                  <md-button class="md-raised">Select Office hour</md-button>
-                </md-card-actions>
-              </md-card>
-
-              <md-card>
-                <md-card-title>
-                  <md-card-title-text>
-                    <span class="md-headline">Dr.Sun Yu</span>
-                    <span class="md-subhead">Content</span>
-                  </md-card-title-text>
-                  <md-card-title-media>
-                    <div class="md-media-lg card-media"></div>
-                  </md-card-title-media>
-                </md-card-title>
-                <md-card-actions layout="row" layout-align="end center">
-                  <md-button class="md-raised">Make Appointment</md-button>
-                  <md-button class="md-raised">Select Office Hour</md-button>
-                </md-card-actions>
-              </md-card>
+                <div id='loading'>loading...</div>
+                <div id='calendar'></div>
             </md-content>
 
-          </div> <!-- office hour -->
+        </div> <!-- Calendar -->
 
-          <!-- Calendar -->
-          <div ng-switch-when="calendar" layout="column" flex>
+    </div> <!-- content -->
 
-              <md-toolbar class="md-whiteframe-4dp">
-                  <h1>Timely > Calendar</h1>
-              </md-toolbar>
-
-              <md-content id="content">
-                  <div id='loading'>loading...</div>
-                  <div id='calendar'></div>
-              </md-content>
-
-          </div> <!-- Calendar -->
-
-        </div> <!-- content -->
-
-    </div>
-    <pre id="contentPre"></pre>
+</div>
 
 
-  <script type="text/javascript">
+</script>
 
-
-    </script>
-
-    <script async defer src="https://apis.google.com/js/api.js"
-          onload="this.onload=function(){};handleClientLoad()"
-          onreadystatechange="if (this.readyState === 'complete') this.onload()">
-    </script>
+<script async defer src="https://apis.google.com/js/api.js"
+onload="this.onload=function(){};handleClientLoad()"
+onreadystatechange="if (this.readyState === 'complete') this.onload()">
+</script>
 
 
 </body>

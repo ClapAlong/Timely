@@ -26,6 +26,8 @@ html, body {
 
 md-toolbar h1 {
   margin: auto;
+  font-size: 1.250em;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -103,7 +105,6 @@ md-button.menuBtn > md-icon {
 .content-wrapper {
   position: relative;
 }
-
 
 .button-icon {
   zoom: 2;
