@@ -10,6 +10,7 @@ var SCOPES = "https://www.googleapis.com/auth/calendar";
 
 var authorizeButton = document.getElementById('authorize-button');
 var signoutButton = document.getElementById('signout-button');
+var calendarId;
 
 /**
  *  On load, called to load the auth2 library and API client library.
@@ -18,12 +19,6 @@ function handleClientLoad() {
     gapi.load('client:auth2', initClient);
 }
 
-/**
- * Sets up an API call after the Google API client loads.
- */
-function apiClientLoaded() {
-    gapi.client.plus.people.get({userId: 'me'}).execute(handleEmailResponse);
-}
 
 /**
  *  Initializes the API client library and sets up sign-in state
@@ -53,7 +48,8 @@ function updateSigninStatus(isSignedIn) {
     if (isSignedIn) {
         document.getElementById('authorize-button').style.display = 'none';
         document.getElementById('signout-button').style.display = 'block';
-        listUpcomingEvents();
+        listCalendars();
+        //listUpcomingEvents();
     } else {
         document.getElementById('authorize-button').style.display = 'block';
         document.getElementById('signout-button').style.display = 'none';
@@ -115,5 +111,17 @@ function listUpcomingEvents() {
         } else {
             appendPre('No upcoming events found.');
         }
+    });
+}
+
+function listCalendars()
+{
+    var request = gapi.client.calendar.calendarList.list();
+
+    request.execute(function(resp){
+        var calendars = resp.items;
+        console.log(calendars);
+        calendarId = calendars[0].id;
+        console.log(calendars[0].id);
     });
 }

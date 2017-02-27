@@ -3,15 +3,15 @@ $(document).ready(function() {
         loadCalendar();
     });
 });
-var calendarId = 'liyuancheng0118@gmail.com';
+
 function loadCalendar()
 {
 
-    //console.log(calendarId);
+    console.log(calendarId);
 
     $(document).ready(function() {
 
-        console.log(calendarId);
+        //console.log(calendarId);
 
         $('#calendar').fullCalendar({
 
@@ -23,12 +23,10 @@ function loadCalendar()
 
             displayEventTime: false,
 
-            eventSources: {
 
-                googleCalendarApiKey: 'AIzaSyBXeOiSzm0iYeNJr6ZXoOtCb7K7579BegE',
+            googleCalendarApiKey: 'AIzaSyBXeOiSzm0iYeNJr6ZXoOtCb7K7579BegE',
 
-                events: calendarId
-            },
+            events: calendarId,
 
             eventClick: function(event) {
                 // opens events in a popup window

@@ -104,23 +104,6 @@ md-button.menuBtn > md-icon {
   position: relative;
 }
 
-/* Typography support coming in 0.8.0 */
-
-md-toolbar h1 {
-  font-size: 1.250em;
-  font-weight: 400;
-  text-align: left;
-}
-
-.avatar {
-  position: relative;
-  width: 128px;
-  height: 128px;
-  overflow: hidden;
-  margin: 0px;
-  vertical-align: middle;
-  zoom: 0.70;
-}
 
 .button-icon {
   zoom: 2;
