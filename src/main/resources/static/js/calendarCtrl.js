@@ -56,11 +56,13 @@ function loadCalendar()
  * appropriate message is printed.
  */
 function insertEvents() {
-    var start= document.getElementById('start_time').value;
-    var end= document.getElementById('end_time').value;
-    var sum = document.getElementById('summary').value;
+    var start= myDate.value;
+    console.log(start);
+    var end= myDate.value;
+    console.log(end);
+    var sum;
     var event = {
-        'summary': sum,
+        'summary': 'test',
         'start':{
             'date':start
         },
@@ -75,5 +77,6 @@ function insertEvents() {
     });
     request.execute(function(event) {
         appendPre('Event created: \n' + event.htmlLink);
+        console.log('inserted');
     });
 }
