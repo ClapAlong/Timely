@@ -110,7 +110,7 @@
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
                             <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
-                            <md-button>Add to Schedule</md-button>
+                            <md-button ng-click="showPrerenderedDialog($event)">Make Appointment</md-button>
                         </md-card-actions>
                     </md-card>
 
@@ -283,6 +283,17 @@
             </md-content>
 
         </div> <!-- Calendar -->
+
+        <div style="visibility: hidden"> <!-- dialog -->
+            <div class="md-dialog-container" id="myDialog">
+                <md-dialog layout-padding>
+                    <h2>Appointment</h2>
+                    <md-datepicker ng-model="myDate1" md-placeholder="Enter date"></md-datepicker>
+                    <md-datepicker ng-model="myDate2" md-placeholder="Enter date"></md-datepicker>
+                    <md-button onclick="insertEvents()">Add to Schedule</md-button>
+                </md-dialog>
+            </div>
+        </div> <!-- dialog -->
 
     </div> <!-- content -->
 
