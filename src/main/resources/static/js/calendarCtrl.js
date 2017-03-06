@@ -26,7 +26,15 @@ function loadCalendar()
 
             googleCalendarApiKey: 'AIzaSyBXeOiSzm0iYeNJr6ZXoOtCb7K7579BegE',
 
-            events: calendarId,
+            eventSources: [
+                {
+                    googleCalendarId: calendarId
+                },
+                {
+                    googleCalendarId: 'en.usa#holiday@group.v.calendar.google.com',
+                    className: 'us-holiday'
+                }
+            ],
 
             eventClick: function(event) {
                 // opens events in a popup window
@@ -39,5 +47,33 @@ function loadCalendar()
             }
 
         });
+    });
+}
+
+/**
+ * Print the summary and start datetime/date of the next ten events in
+ * the authorized user's calendar. If no events are found an
+ * appropriate message is printed.
+ */
+function insertEvents() {
+    var start= document.getElementById('start_time').value;
+    var end= document.getElementById('end_time').value;
+    var sum = document.getElementById('summary').value;
+    var event = {
+        'summary': sum,
+        'start':{
+            'date':start
+        },
+        'end':{
+            'date':end
+        },
+    };
+
+    var request = gapi.client.calendar.events.insert({
+        'calendarId': 'primary',
+        'resource': event
+    });
+    request.execute(function(event) {
+        appendPre('Event created: \n' + event.htmlLink);
     });
 }

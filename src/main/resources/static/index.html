@@ -95,19 +95,21 @@
                 <h1>Timely > Appointment</h1>
             </md-toolbar>
 
-            <md-content class="md-padding" layout-xs="column" layout="row">
+            <md-content md-scroll-y class="md-padding" layout-xs="column" layout="row">
                 <div flex-xs flex-gt-xs="50" layout="column">
                     <md-card>
                         <md-card-title>
                             <md-card-title-text>
                                 <span class="md-headline">International Center</span>
-                                <span class="md-subhead">Content</span>
+                                <span class="md-subhead">Office Hours: Monday - Friday (8:00am - 5:00pm)</span>
+                                <span class="md-subhead">Email: international@cpp.edu</span>
                             </md-card-title-text>
                             <md-card-title-media>
                                 <div class="md-media-lg card-media"></div>
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
+                            <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
                             <md-button class="md-raised">Make Appointment</md-button>
                         </md-card-actions>
                     </md-card>
@@ -123,6 +125,7 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
+                            <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
                             <md-button class="md-raised">Make Appointment</md-button>
                         </md-card-actions>
                     </md-card>
@@ -140,6 +143,7 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
+                            <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
                             <md-button class="md-raised">Make Appointment</md-button>
                         </md-card-actions>
                     </md-card>
@@ -155,6 +159,7 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
+                            <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
                             <md-button class="md-raised">Make Appointment</md-button>
                         </md-card-actions>
                     </md-card>
@@ -173,7 +178,7 @@
                 <h1>Timely > Office Hour</h1>
             </md-toolbar>
 
-            <md-content class="md-padding" layout-xs="column" layout="row">
+            <md-content md-scroll-y class="md-padding" layout-xs="column" layout="row">
                 <div flex-xs flex-gt-xs="50" layout="column">
                     <md-card>
                         <md-card-title>
@@ -218,7 +223,7 @@
                 <h1>Timely > Calendar</h1>
             </md-toolbar>
 
-            <md-content id="content">
+            <md-content md-scroll-y class="md-padding">
                 <div id='loading'>loading...</div>
                 <div id='calendar'></div>
             </md-content>
