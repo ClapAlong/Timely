@@ -58,7 +58,7 @@ function loadCalendar()
 function insertEvents() {
     var start= Date1;
     console.log(start);
-    var end= Date2;
+    var end= Date1;
     console.log(end);
     //var sum;
     var event = {

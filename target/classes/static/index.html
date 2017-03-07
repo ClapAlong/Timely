@@ -109,7 +109,6 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
-                            <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
                             <md-button ng-click="showPrerenderedDialog($event)">Make Appointment</md-button>
                         </md-card-actions>
                     </md-card>
@@ -144,8 +143,7 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
-                            <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
-                            <md-button>Make Appointment</md-button>
+                            <md-button ng-click="showPrerenderedDialog($event)">Make Appointment</md-button>
                         </md-card-actions>
                     </md-card>
 
@@ -160,8 +158,7 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
-                            <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
-                            <md-button>Make Appointment</md-button>
+                            <md-button ng-click="showPrerenderedDialog($event)">Make Appointment</md-button>
                         </md-card-actions>
                     </md-card>
 
@@ -185,10 +182,10 @@
                         <md-card-title>
                             <md-card-title-text>
                                 <span class="md-headline">Gilbert Young</span>
-                                <span class="md-subhead">Title: Assistant Professor</span>
-                                <span class="md-subhead">Office: 8-09</span>
-                                <span class="md-subhead">Phone: (909) 869-4842</span>
-                                <span class="md-subhead">Email: tingtingchen@cpp.edu </span>
+                                <span class="md-subhead">Title: Professor & Graduate Coordinator</span>
+                                <span class="md-subhead">Office: 8-14</span>
+                                <span class="md-subhead">Phone: (909) 869-4413</span>
+                                <span class="md-subhead">Email: gsyoung@cpp.edu  </span>
                                 <a href="http://www.cpp.edu/~gsyoung/"
                                    target="_blank"><span class="md-subhead" herf=>Website</span></a>
                             </md-card-title-text>
@@ -197,7 +194,7 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
-                            <md-button>Make Appointment</md-button>
+                            <md-button ng-click="showPrerenderedDialog($event)">Make Appointment</md-button>
                             <md-button>Select Office hour</md-button>
                         </md-card-actions>
                     </md-card>
@@ -207,17 +204,18 @@
                             <md-card-title-text>
                                 <span class="md-headline">Sun Yu</span>
                                 <span class="md-subhead">Title: Assistant Professor</span>
-                                <span class="md-subhead">Office: 8-09</span>
-                                <span class="md-subhead">Phone: (909) 869-4842</span>
-                                <span class="md-subhead">Email: tingtingchen@cpp.edu </span>
+                                <span class="md-subhead">Office: 8-42</span>
+                                <span class="md-subhead">Phone: (909) 869-3449</span>
+                                <span class="md-subhead">Email: yusun@cpp.edu  </span>
                                 <a href="http://www.cpp.edu/~yusun/"
-                                   target="_blank"><span class="md-subhead" herf=>Website</span></a>                          </md-card-title-text>
+                                   target="_blank"><span class="md-subhead" herf=>Website</span></a>
+                            </md-card-title-text>
                             <md-card-title-media>
                                 <div class="md-media-lg card-media"></div>
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
-                            <md-button>Make Appointment</md-button>
+                            <md-button ng-click="showPrerenderedDialog($event)">Make Appointment</md-button>
                             <md-button>Select Office Hour</md-button>
                         </md-card-actions>
                     </md-card>
@@ -240,7 +238,7 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
-                            <md-button>Make Appointment</md-button>
+                            <md-button ng-click="showPrerenderedDialog($event)">Make Appointment</md-button>
                             <md-button>Select Office hour</md-button>
                         </md-card-actions>
                     </md-card>
@@ -260,7 +258,7 @@
                             </md-card-title-media>
                         </md-card-title>
                         <md-card-actions layout="row" layout-align="end center">
-                            <md-button>Make Appointment</md-button>
+                            <md-button ng-click="showPrerenderedDialog($event)">Make Appointment</md-button>
                             <md-button>Select Office Hour</md-button>
                         </md-card-actions>
                     </md-card>
@@ -289,7 +287,16 @@
                 <md-dialog layout-padding>
                     <h2>Appointment</h2>
                     <md-datepicker ng-model="myDate1" md-placeholder="Enter date"></md-datepicker>
-                    <md-datepicker ng-model="myDate2" md-placeholder="Enter date"></md-datepicker>
+                    <md-button onclick="insertEvents()">Add to Schedule</md-button>
+                </md-dialog>
+            </div>
+        </div> <!-- dialog -->
+
+        <div style="visibility: hidden"> <!-- dialog -->
+            <div class="md-dialog-container" id="myDialog2">
+                <md-dialog layout-padding>
+                    <h2>Appointment</h2>
+                    <md-datepicker ng-model="myDate1" md-placeholder="Enter date"></md-datepicker>
                     <md-button onclick="insertEvents()">Add to Schedule</md-button>
                 </md-dialog>
             </div>
